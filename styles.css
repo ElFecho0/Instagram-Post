@@ -1,0 +1,87 @@
+body{
+    background: black;
+}
+
+.cuadro-principal{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+.cuadro-principal > div{
+    display: block;
+}
+
+.encabezado{
+    height: 10%;
+    background: white;
+    font-size: 12.5px;
+}
+.encabezado > div{
+    display:inline-block;
+    margin: 5px;
+}
+.izq{
+    padding-top: 7px;
+}
+.mid{
+    position:relative;
+    right: 10px;
+}
+.der{
+    padding-top: 7px;
+    float: right;
+}
+
+.imagen{
+    height: 55%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.cuerpo{
+    height: 171px;
+    background: white;
+    display: block;
+}
+.cuerpo > div{
+    width: 100%;
+    font-size: 12px;
+}
+
+.top{
+    height: 20%;
+}
+.top > div{
+    display: inline-block;
+    margin: 5px;
+}
+.center{
+    height: 20%;
+    margin-top: 10px;
+}
+
+.foot{
+    height: 55%;
+    margin-top: 5px;
+}
+
+.comentario{
+    position: relative;
+    right: 5px;
+}
+.enviar{
+    position: relative;
+    right: 10px;
+}
+.guardar{
+    float: right;
+}
+
+/*div{
+    border: 1px;
+    border-color: red;
+    border-style: dashed;
+}*/
+
